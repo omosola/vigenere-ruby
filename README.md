@@ -6,8 +6,11 @@ http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 Usage:
 
 vigenere = Vigenere.new "LEMON"
+
 plaintext = "TESTSTRING"
+
 ciphertext = vigenere.encrypt plaintext
+
 decrypted_text = vigenere.decrypt ciphertext
 
 Note:
